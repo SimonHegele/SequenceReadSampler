@@ -2,6 +2,10 @@
 
 A small tool to help you with generating toy samples for testing software tools for bioinformatics.
 
+### Requirements:
+
+Python >= 3.9 (or remove my type hints)
+
 ### Example:
 
 Filtering paired-end illumina reads from a mouse liver RNAseq<br>
