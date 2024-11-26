@@ -17,6 +17,8 @@ for reads that minimap2 aligns to chromosome 1 of the GRCm39 mouse genome assemb
    
 `minimap2 -x sr -t 1 GCF_000001635.27_GRCm39_genomic.fna SRR5273704_1.fastq SRR5273704_2.fastq > mappings.paf`
 
+** Only works if you are using a single thread **
+
 2. Filtering
    
 `python3 filter.py SSRR5273704_1.fastq SRR5273704_chr1_1.fastq NC_000067.7`
